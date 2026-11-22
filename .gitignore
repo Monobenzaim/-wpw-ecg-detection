@@ -1,0 +1,288 @@
+# ============================================================
+# WPW ECG Detection - Git Ignore Configuration
+# ============================================================
+# This file prevents sensitive data, credentials, and generated
+# files from being committed to version control.
+#
+# CRITICAL SECURITY: Protects API keys and patient data
+# ============================================================
+
+# ============================================================
+# API KEYS & SECRETS (CRITICAL - DO NOT COMMIT!)
+# ============================================================
+.env
+.env.local
+.env.*.local
+**/GROQ_API_KEY*
+**/groq_api_key*
+**/*_API_KEY*
+**/*_api_key*
+**/*.key
+**/*.pem
+credentials.json
+secrets.json
+token.json
+auth_token.txt
+api_keys.txt
+
+# ============================================================
+# PATIENT DATA & REPORTS (PRIVACY PROTECTION)
+# ============================================================
+# Generated reports may contain patient information
+reports/*.pdf
+reports/*.json
+reports/*.csv
+reports/*_report_*
+
+# Exclude README files but include directory structure
+!reports/README.md
+
+# ============================================================
+# TRAINED MODELS (TOO LARGE FOR GIT)
+# ============================================================
+# Models can be large (>10MB) and should be regenerated or stored elsewhere
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Keep metadata and README
+!models/*.json
+!models/README.md
+!models/.gitkeep
+
+# ============================================================
+# BENCHMARK RESULTS (REGENERATABLE)
+# ============================================================
+# Benchmark outputs can be regenerated, exclude to save space
+benchmark_results/*.png
+benchmark_results/*.jpg
+benchmark_results/*.pdf
+benchmark_results/*.csv
+benchmark_results/*.json
+
+# Keep README for directory structure
+!benchmark_results/README.md
+!benchmark_results/.gitkeep
+
+# ============================================================
+# PYTHON
+# ============================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+virtualenv/
+.venv/
+myenv/
+wpw_env/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================
+# JUPYTER NOTEBOOKS
+# ============================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Notebook outputs (optional - keep if you want to track outputs)
+# *.ipynb
+
+# ============================================================
+# IDE & EDITORS
+# ============================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================
+# DATA FILES (SENSITIVE OR LARGE)
+# ============================================================
+# Raw ECG data (can be large)
+data/*.csv
+data/*.data
+data/*.txt
+data/*.zip
+data/*.tar.gz
+data/*.h5
+data/*.hdf5
+data/*.parquet
+
+# Exclude example/sample data
+!data/sample_*.csv
+!data/example_*.csv
+
+# Keep data README
+!data/README.md
+!data/.gitkeep
+
+# ============================================================
+# LOGS & TEMPORARY FILES
+# ============================================================
+*.log
+*.out
+*.err
+logs/
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ============================================================
+# STREAMLIT
+# ============================================================
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Keep config
+!.streamlit/config.toml
+
+# ============================================================
+# LATEX & DOCUMENTATION (IF USING FOR THESIS)
+# ============================================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.synctex.gz
+
+# ============================================================
+# MISC
+# ============================================================
+# Backup files
+*.bak
+*.backup
+*_backup
+*_old
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Node modules (if using any JS tools)
+node_modules/
+package-lock.json
+
+# Cache directories
+.cache/
+*.cache
+
+# ============================================================
+# PROJECT SPECIFIC
+# ============================================================
+# Experiment results
+experiments/
+runs/
+checkpoints/
+
+# Downloaded datasets
+downloads/
+
+# Compiled documentation
+docs/_build/
+docs/.doctrees/
+
+# ============================================================
+# KEEP THESE (EXPLICITLY NOT IGNORED)
+# ============================================================
+# Ensure these are tracked even if patterns above might match
+!.gitignore
+!.gitkeep
+!README.md
+!LICENSE
+!requirements.txt
+!.env.example
