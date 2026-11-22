@@ -91,7 +91,7 @@ Perfect for medical AI research, clinical decision support systems, and academic
 
 ```bash
 # 1. Clone repository
-git clone <your-repo-url>
+git clone https://github.com/Monobenzaim/-wpw-ecg-detection.git wpw-ecg-detection
 cd wpw-ecg-detection
 
 # 2. Create virtual environment
@@ -126,7 +126,7 @@ streamlit run app_enhanced.py
 
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/Monobenzaim/-wpw-ecg-detection.git wpw-ecg-detection
 cd wpw-ecg-detection
 
 # Create virtual environment
@@ -497,7 +497,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2026 WPW ECG Detection Project
+Copyright (c) 2026 Abdelmouaine Benzaim
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -513,9 +513,9 @@ If you use this project in your research or thesis, please cite:
 ```bibtex
 @software{wpw_ecg_detection_2026,
   title = {WPW ECG Detection System: AI-Powered Arrhythmia Screening},
-  author = {Your Name},
+  author = {Benzaim, Abdelmouaine},
   year = {2026},
-  url = {https://github.com/yourusername/wpw-ecg-detection},
+  url = {https://github.com/Monobenzaim/-wpw-ecg-detection},
   note = {Master's Thesis Project}
 }
 ```
@@ -534,9 +534,12 @@ If you use this project in your research or thesis, please cite:
 
 ## 📞 Contact & Support
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/wpw-ecg-detection/issues)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
+**Abdelmouaine Benzaim**
+
+- **Email**: [benzaimabdelmouaine@gmail.com](mailto:benzaimabdelmouaine@gmail.com)
+- **LinkedIn**: [Abdelmouaine Benzaim](https://www.linkedin.com/in/abdelmouain-benzaim-45b9102b5/)
+- **GitHub**: [@Monobenzaim](https://github.com/Monobenzaim)
+- **Issues**: [Report a bug or request a feature](https://github.com/Monobenzaim/-wpw-ecg-detection/issues)
 
 ---
 
@@ -588,8 +591,8 @@ This project is designed for:
 
 **Star ⭐ this repo if you found it helpful!**
 
-[Report Bug](https://github.com/yourusername/wpw-ecg-detection/issues) ·
-[Request Feature](https://github.com/yourusername/wpw-ecg-detection/issues) ·
-[Documentation](https://github.com/yourusername/wpw-ecg-detection/wiki)
+[Report Bug](https://github.com/Monobenzaim/-wpw-ecg-detection/issues) ·
+[Request Feature](https://github.com/Monobenzaim/-wpw-ecg-detection/issues) ·
+[Documentation](#-documentation)
 
 </div>

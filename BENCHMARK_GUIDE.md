@@ -493,7 +493,7 @@ superior discriminative ability for WPW syndrome detection.
 ```bibtex
 @mastersthesis{your_thesis_2026,
   title={AI-Powered WPW Syndrome Detection from ECG Features},
-  author={Your Name},
+  author={Benzaim, Abdelmouaine},
   year={2026},
   school={Your University},
   note={Random Forest model achieved ROC-AUC of 0.9856 for WPW detection}

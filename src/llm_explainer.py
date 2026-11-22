@@ -12,7 +12,7 @@ Features:
 - Medical recommendations based on prediction results
 - Support for Groq's Llama 3.1 models
 
-Author: Enhanced with Claude Code
+Author: Abdelmouaine Benzaim <benzaimabdelmouaine@gmail.com>
 Date: 2026
 """
 

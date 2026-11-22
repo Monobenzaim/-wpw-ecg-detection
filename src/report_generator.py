@@ -13,7 +13,7 @@ Features:
 - AI-generated medical explanations
 - Compliance-ready documentation
 
-Author: Enhanced with Claude Code
+Author: Abdelmouaine Benzaim <benzaimabdelmouaine@gmail.com>
 Date: 2026
 """
 

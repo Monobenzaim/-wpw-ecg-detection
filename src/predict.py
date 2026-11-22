@@ -12,7 +12,7 @@ Features:
 - Batch prediction support
 - Input validation and preprocessing
 
-Author: Enhanced with Claude Code
+Author: Abdelmouaine Benzaim <benzaimabdelmouaine@gmail.com>
 Date: 2026
 """
 

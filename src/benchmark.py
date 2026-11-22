@@ -14,7 +14,7 @@ Features:
 - Clinical interpretation focus (sensitivity, specificity, etc.)
 - Publication-ready results export
 
-Author: Enhanced with Claude Code
+Author: Abdelmouaine Benzaim <benzaimabdelmouaine@gmail.com>
 Date: 2026
 """
 

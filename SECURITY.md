@@ -504,7 +504,7 @@ This project already includes:
 **Found a security vulnerability?**
 
 **DO:**
-- Email privately: security@example.com
+- Email privately: [benzaimabdelmouaine@gmail.com](mailto:benzaimabdelmouaine@gmail.com)
 - Provide clear description
 - Include steps to reproduce
 - Allow time for fix

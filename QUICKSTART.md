@@ -15,7 +15,7 @@ Get the WPW ECG Detection System running in 5 minutes!
 
 ```bash
 # If you have git
-git clone <repository-url>
+git clone https://github.com/Monobenzaim/-wpw-ecg-detection.git wpw-ecg-detection
 cd wpw-ecg-detection
 
 # Or download and extract ZIP
